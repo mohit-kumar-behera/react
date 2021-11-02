@@ -1,0 +1,16 @@
+.header {
+  background-color: cadetblue;
+  font-size: 1.1rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.nav-link:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.nav-link > a {
+  color: #fff;
+}
+.nav-link > a:hover {
+  color: #000;
+}

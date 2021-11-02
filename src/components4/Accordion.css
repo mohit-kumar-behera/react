@@ -1,0 +1,32 @@
+.accordion {
+  margin: 1rem;
+}
+
+.card {
+  padding: 0.7rem;
+  border: 1px solid lightgrey;
+}
+
+.card > .title {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.card > .content {
+  display: none;
+}
+
+.card.active {
+  background: #00000015;
+}
+
+.card.active > .content {
+  display: block;
+}
+
+.searchmatch {
+  background-color: #00000025;
+  color: #000;
+  font-weight: bold;
+  padding: 0.05rem 0.3rem;
+}
